@@ -7,4 +7,4 @@ app = FastApi()
 
 @app.get("/")
 def raiz():
-    return{"olá mundo"}
+    return{"olá" :"mundo"}
